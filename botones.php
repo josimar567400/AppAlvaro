@@ -10,7 +10,7 @@
         $num2 = 0;
         $saludo = "";
         $mostrar = false;
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {ascascasc
             if ($_POST["formulario"] == "suma") {
               $num1 = $_POST["num1"] ?? 0;
               $num2 = $_POST["num2"] ?? 0;
