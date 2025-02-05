@@ -8,9 +8,9 @@
         $valor1 = 0;
         $num1 = 0;
         $num2 = 0;
-        $saludo = "";
+        $saludo = "Holsa";
         $mostrar = false;
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {ascascasc
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if ($_POST["formulario"] == "suma") {
               $num1 = $_POST["num1"] ?? 0;
               $num2 = $_POST["num2"] ?? 0;
