@@ -8,7 +8,7 @@
         $valor1 = 0;
         $num1 = 0;
         $num2 = 0;
-        $saludo = "Holsa";
+        $saludo = "Holswerga";
         $mostrar = false;
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if ($_POST["formulario"] == "suma") {
